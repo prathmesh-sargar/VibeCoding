@@ -31,8 +31,8 @@ const Header = () => {
                 {/* Logo Section */}
                 <Link className="flex items-center gap-3" to="/">
                     <h1 className="text-xl font-bold">
-                        <span className="text-black dark:text-white">Code</span>
-                        <span className="text-blue-600">Minder</span>
+                        <span className="text-black dark:text-white">Launch</span>
+                        <span className="text-blue-600">Track</span>
                     </h1>
                 </Link>
 

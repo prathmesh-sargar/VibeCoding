@@ -73,7 +73,7 @@ const HeroSection = () => {
           A comprehensive platform for developers to monitor progress, visualize achievements, and connect with the coding community. <br />
           <span className="inline-block relative text-center">
             <span className="relative z-20 text-blue-500 font-extrabold text-2xl tracking-wide drop-shadow-lg">
-              Code<span className="text-pink-500">Minder</span>
+              Launch<span className="text-pink-500">Track</span>
             </span>
             <motion.img
               initial={{ opacity: 0, y: 20 }}
