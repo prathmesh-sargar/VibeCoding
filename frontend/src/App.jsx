@@ -32,6 +32,7 @@ import CommunityChat from './Components/chat/ChatCommunity';
 import ScorePage from './Components/AiInterview/ScorePage';
 import ATSResume from './Components/chat/ATSResume';
 import ChatGemini from './Components/Chatwithgemini/ChatGemini';
+import Roadmap from './Components/Roadmap/Roadmap';
 // import ATSResume from './Components/chat/ATSResume';
 
 
@@ -39,11 +40,13 @@ const router = createBrowserRouter(
     createRoutesFromElements(
         <Route path="/" element={<Layout />}>
             {/* Main Pages */}
+
             <Route index element={<LandingPage />} />
             <Route path="event-tracker" element={<EventTracker />} />
             <Route path="login" element={<SignIn />} />
             <Route path="signup" element={<SignUp />} />
             <Route path="ainterview" element={<InterviewDashBord />} />
+            <Route path='roadmap' element={<Roadmap/>} />
             <Route path="AIJobForm" element={<JobForm />} />
             <Route path="community" element={<CommunityChat />} />
             <Route path="resume" element={<ATSResume />} />

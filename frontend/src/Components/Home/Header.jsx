@@ -45,8 +45,8 @@ const Header = () => {
                     <Link className="px-4 py-2 text-sm font-medium hover:bg-gray-100 rounded-lg transition" to="/chat">Ai Guide</Link>
                     <Link className="px-4 py-2 text-sm font-medium hover:bg-gray-100 rounded-lg transition" to="/ainterview">AI Interview</Link>
                     <Link className="px-4 py-2 text-sm font-medium hover:bg-gray-100 rounded-lg transition" to="/community">Community</Link>
+                    <Link className="px-4 py-2 text-sm font-medium hover:bg-gray-100 rounded-lg transition" to="/roadmap">Roadmap</Link>
                 </nav>
-
                 {/* User Section */}
                 {user ? (
                     <Popover>

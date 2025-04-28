@@ -13,7 +13,7 @@ const Footer = () => {
                                 <path d="m6 8-4 4 4 4"></path>
                                 <path d="m14.5 4-5 16"></path>
                             </svg>
-                            <span className="text-xl font-bold text-gray-900">CodeMinder</span>
+                            <span className="text-xl font-bold text-gray-900">LaunchTrack</span>
                         </div>
                         <p className="text-sm text-gray-600 mb-4">
                             Track, analyze, and share your coding journey with the most comprehensive developer platform.
